@@ -61,9 +61,13 @@ python3 9_make_hgt_dataset_csv_file_script.py
 
 ### Copying the protein accession number and calculating the amino acid number for each protein sequence and
 ### pasting the output in the HGT dataset
+### 10_protein_accession_&_amino_acid_count.py
 ### To run 10_protein_accession_&_amino_acid_count.py
-
 ### Enter the path to the protein.fasta file, so it should be in the current directory followed by the name. Ex: protein.fasta
+
+### Copying the gene accession and calculating the number of "GACTs" for each full gene sequence and
+### pasting the output in the HGT dataset
+### To run 11_gene_accesion_&_full_gene_length_count.py
 
 
 

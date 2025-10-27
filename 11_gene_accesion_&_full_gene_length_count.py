@@ -160,7 +160,7 @@ def main():
     print("Combined Gene Accession + Length Updater")
     print("========================================")
 
-    fasta_file = input("Enter path to your gene FASTA file: ").strip()
+    fasta_file = input("Enter path to your full_gene.fasta FASTA file: ").strip()
     while not os.path.exists(fasta_file):
         fasta_file = input("Invalid FASTA file path. Try again or type 'exit': ").strip()
         if fasta_file.lower() == 'exit':
