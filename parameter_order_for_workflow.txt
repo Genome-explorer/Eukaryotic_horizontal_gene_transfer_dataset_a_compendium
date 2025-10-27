@@ -85,6 +85,16 @@ python 13_GC_content_full_gene_calculator_script.py
 ### Enter the path to the full_gene.fasta file, so it should be in the current directory followed by the name. Ex: full_gene.fasta
 
 
+### Calculating number of G's and C's in the for each gene in CDS_gene.fasta and
+### pasting the output in the HGT dataset
+### To run 14_GC_content_CDS_calculator_script.py
+python 14_GC_content_CDS_calculator_script.py
+### Enter the path to the CDS_gene.fasta file, so it should be in the current directory followed by the name. Ex: CDS_gene.fasta
+
+
+
+
+
 
 
 

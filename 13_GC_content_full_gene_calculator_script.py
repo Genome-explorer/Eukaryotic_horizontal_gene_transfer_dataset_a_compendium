@@ -211,7 +211,7 @@ def main():
     print("====================================")
     
     # Ask user for FASTA file path
-    fasta_file = input("Enter the path to your gene FASTA file: ").strip()
+    fasta_file = input("Enter the path to your full_gene.fasta FASTA file: ").strip()
     
     # Validate that the file exists
     while not os.path.exists(fasta_file):
