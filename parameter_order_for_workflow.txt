@@ -1,47 +1,46 @@
+##### This script creates 3 directories (folders) to store your full gene fasta files, Coding sequence fasta files, and protein sequence fasta files
 #### 1_make_new_directories.py
-### This script creates 3 directories (folders) to store your full gene fasta files, Coding sequence fasta files, and protein sequence fasta files
 ### To run this file make sure you have python installed
 python 1_make_new_directories.py
 
+##### This script adds full gene at the end of each of the fasta files in the full gene directory
 #### 2_add_full_gene_at_the_end_of_each_fasta_file.sh
 ### To run this file make sure the file is executable
 chmod +x 2_add_full_gene_at_the_end_of_each_fasta_file.sh
-
-#### 2_add_full_gene_at_the_end_of_each_fasta_file.sh
 ### Next run the file
 ./2_add_full_gene_at_the_end_of_each_fasta_file.sh
 ### Then provide the path to full gene directory (folder), Example (Ex): /home/name/full_gene
 
+
+##### This script adds CDS at the end of each of the fasta files in the full gene directory
 #### 3_add_CDS_gene_at_the_end_of_each_fasta_file.sh
 ### To run 3_add_CDS_gene_at_the_end_of_each_fasta_file.sh
 chmod +x 3_add_CDS_gene_at_the_end_of_each_fasta_file.sh
-
-#### 3_add_CDS_gene_at_the_end_of_each_fasta_file.sh
 ### Next run the file
 ./3_add_CDS_gene_at_the_end_of_each_fasta_file.sh
-### Then provide the path to Coding sequence directory (folder), Example (Ex): /home/name/CDS
+### Then provide the path to Coding sequence directory (folder), Example (Ex): /home/name/CDSS
 
-#
+
+##### This script adds protein at the end of each of the fasta files in the proteins directory
 #### 4_add_protein_gene_at_the_end_of_each_fasta_file.sh
 ### To run 4_add_protein_gene_at_the_end_of_each_fasta_file.sh
 chmod +x 4_add_protein_gene_at_the_end_of_each_fasta_file.sh
-
-#### 4_add_protein_gene_at_the_end_of_each_fasta_file.sh
 ### Next run the file
 ./4_add_protein_gene_at_the_end_of_each_fasta_file.sh
 ### Then provide the path to protein directory (folder), Example (Ex): /home/name/proteins
 
-#### 5_all_full_gene_extract_fasta_seqs_to_full_gene_fasta.py
-### To run 5_all_full_gene_extract_fasta_seqs_to_full_gene_fasta.py
-python3 5_all_full_gene_extract_fasta_seqs_to_full_gene_fasta.py
+#### Combing all full gene fasta files into one file full_gene.fasta
+### To run 5_combine_all_full_gene_fasta_files_to_full_gene_fasta.py
+python3 5_combine_all_full_gene_fasta_files_to_full_gene_fasta.py
 ### Next paste the full path to the full gene directory (folder)
 
-##
 
-#### 6_all_CDS_gene_extract_fasta_seqs_to_CDS_gene_fasta.py
-### To run 6_all_CDS_gene_extract_fasta_seqs_to_full_gene_fasta.py
-python3 6_all_CDS_gene_extract_fasta_seqs_to_full_gene_fasta.py
+#### Combing all coding sequence fasta files into one file CDS_gene.fasta
+### To run 6_combine_all_CDS_fasta_files_to_CDS_gene_fasta.py
+python3 6_combine_all_CDS_fasta_files_to_CDS_gene_fasta.py
 ### Next paste the full path to the Coding sequence directory (folder)
+
+##
 
 
 
