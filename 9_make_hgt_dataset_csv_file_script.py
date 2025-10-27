@@ -13,8 +13,8 @@ Script to generate a CSV file for horizontal gene transfer data with specified c
 - G+C_content_CDS
 - Phylogenetic_support(n/a=not_tested, N= no, Y=Yes)
 - level_of_certainty
-- Taxon_Donor(Bacteria,Protist,Fungi)
-- Taxon_receiver(Insect,Worm,Fly,Rotifer)
+- Taxon_Donor(Bacteria,Protist,Fungi,Archaea,Unknown)
+- Taxon_receiver(By_Phylum)
 - Receiver_Genus_species
 - PMCID/PMID/DOI
 - Publish_Year
