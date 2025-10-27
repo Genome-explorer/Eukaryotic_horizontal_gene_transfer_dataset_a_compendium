@@ -63,11 +63,28 @@ python3 9_make_hgt_dataset_csv_file_script.py
 ### pasting the output in the HGT dataset
 ### 10_protein_accession_&_amino_acid_count.py
 ### To run 10_protein_accession_&_amino_acid_count.py
+python 10_protein_accession_\&_amino_acid_count.py
 ### Enter the path to the protein.fasta file, so it should be in the current directory followed by the name. Ex: protein.fasta
 
 ### Copying the gene accession and calculating the number of "GACTs" for each full gene sequence and
 ### pasting the output in the HGT dataset
 ### To run 11_gene_accesion_&_full_gene_length_count.py
+python 11_gene_accesion_&_full_gene_length_count.py
+### Enter the path to the full_gene.fasta file, so it should be in the current directory followed by the name. Ex: full_gene.fasta
+
+### Calculating the number of "GACTs" for each full gene sequence and number of non-coding sequences (by taking the difference between full gene and CDS) and
+### pasting the output in the HGT dataset
+### To run 12_cds_length_&_non_coding_length.py
+python 12_cds_length_&_non_coding_length.py
+
+### Calculating number of G's and C's in the for each gene in full_gene.fasta and
+### pasting the output in the HGT dataset
+### To run 13_GC_content_full_gene_calculator_script.py
+python 13_GC_content_full_gene_calculator_script.py
+
+
+
+
 
 
 

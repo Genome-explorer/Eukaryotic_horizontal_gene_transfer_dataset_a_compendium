@@ -127,7 +127,7 @@ def main():
     print("Combined Gene Length Updater and Non-Coding Calculator")
     print("=======================================================")
 
-    fasta_file = input("Enter the path to your gene FASTA file: ").strip()
+    fasta_file = input("Enter the path to your CDS_gene.fasta FASTA file: ").strip()
     while not os.path.exists(fasta_file):
         fasta_file = input("File not found. Enter a valid FASTA file path: ").strip()
 
