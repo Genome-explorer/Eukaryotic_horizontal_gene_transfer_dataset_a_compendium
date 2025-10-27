@@ -57,6 +57,15 @@ python3 8_moves_group_fasta_sequences.py
 ### 9_make_hgt_dataset_csv_file_script.py
 ### To run 9_make_hgt_dataset_csv_file_script.py
 python3 9_make_hgt_dataset_csv_file_script.py
+### The empty HGT dataset should be in your current working directory (folder)
+
+### Copying the protein accession number and calculating the amino acid number for each protein sequence and
+### pasting the output in the HGT dataset
+### To run 10_protein_accession_&_amino_acid_count.py
+
+### Enter the path to the protein.fasta file, so it should be in the current directory followed by the name. Ex: protein.fasta
+
+
 
 
 
