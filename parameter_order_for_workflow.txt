@@ -76,11 +76,14 @@ python 11_gene_accesion_&_full_gene_length_count.py
 ### pasting the output in the HGT dataset
 ### To run 12_cds_length_&_non_coding_length.py
 python 12_cds_length_&_non_coding_length.py
+### Enter the path to the CDS_gene.fasta file, so it should be in the current directory followed by the name. Ex: CDS_gene.fasta
 
 ### Calculating number of G's and C's in the for each gene in full_gene.fasta and
 ### pasting the output in the HGT dataset
 ### To run 13_GC_content_full_gene_calculator_script.py
 python 13_GC_content_full_gene_calculator_script.py
+### Enter the path to the full_gene.fasta file, so it should be in the current directory followed by the name. Ex: full_gene.fasta
+
 
 
 

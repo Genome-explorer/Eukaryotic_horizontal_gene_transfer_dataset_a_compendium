@@ -216,7 +216,7 @@ def main():
     # Validate that the file exists
     while not os.path.exists(fasta_file):
         print(f"Error: The file '{fasta_file}' does not exist.")
-        fasta_file = input("Please enter a valid path to your FASTA file (or type 'exit' to quit): ").strip()
+        fasta_file = input("Please enter a valid path to your CDS_gene.fasta FASTA file (or type 'exit' to quit): ").strip()
         if fasta_file.lower() == 'exit':
             return 1
     
