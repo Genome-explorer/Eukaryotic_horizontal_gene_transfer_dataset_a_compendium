@@ -113,7 +113,7 @@ def main():
     print("\nIMPORTANT: You need to provide the directory(folder) containing your protein FASTA files.")
     default_dir = args.directory if args.directory else os.getcwd()
     print(f"Default directory: {default_dir}")
-    directory_path = input("Enter the path to the directory(folder) containing FASTA files: ").strip()
+    directory_path = input("Enter the path to the directory(folder) containing protein FASTA files: ").strip()
     
     # If user didn't provide input, use the default
     if not directory_path:
