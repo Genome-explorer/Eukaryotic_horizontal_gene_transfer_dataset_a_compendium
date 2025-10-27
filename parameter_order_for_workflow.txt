@@ -38,7 +38,7 @@ python3 5_all_full_gene_extract_fasta_seqs_to_full_gene_fasta.py
 
 ##
 
-#### 6_all_CDS_gene_extract_fasta_seqs_to_full_gene_fasta.py
+#### 6_all_CDS_gene_extract_fasta_seqs_to_CDS_gene_fasta.py
 ### To run 6_all_CDS_gene_extract_fasta_seqs_to_full_gene_fasta.py
 python3 6_all_CDS_gene_extract_fasta_seqs_to_full_gene_fasta.py
 ### Next paste the full path to the Coding sequence directory (folder)
