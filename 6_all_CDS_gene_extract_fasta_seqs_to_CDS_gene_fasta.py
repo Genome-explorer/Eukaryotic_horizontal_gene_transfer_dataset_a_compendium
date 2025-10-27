@@ -110,10 +110,10 @@ def main():
     print("\nThis script will combine all sequences from FASTA files in a directory into a single file called 'CDS_gene.fasta'.")
     
     # Always ask for directory path, regardless of command line arguments
-    print("\nIMPORTANT: You need to provide the directory containing your Coding sequence FASTA files.")
+    print("\nIMPORTANT: You need to provide the directory(folder) containing your Coding sequence FASTA files.")
     default_dir = args.directory if args.directory else os.getcwd()
     print(f"Default directory: {default_dir}")
-    directory_path = input("Enter the path to the directory containing FASTA files: ").strip()
+    directory_path = input("Enter the path to the directory(folder) containing Coding sequence FASTA files: ").strip()
     
     # If user didn't provide input, use the default
     if not directory_path:
