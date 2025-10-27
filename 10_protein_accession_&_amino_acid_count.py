@@ -114,7 +114,7 @@ def main():
     fasta_file = input("Enter the path to your FASTA file: ").strip()
     while not os.path.exists(fasta_file):
         print(f"Error: The file '{fasta_file}' does not exist.")
-        fasta_file = input("Please enter a valid path to your FASTA file (or type 'exit' to quit): ").strip()
+        fasta_file = input("Please enter a valid path to your protein.fasta FASTA file (or type 'exit' to quit): ").strip()
         if fasta_file.lower() == 'exit':
             return 1
 
