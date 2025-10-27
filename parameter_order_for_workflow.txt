@@ -91,6 +91,30 @@ python 13_GC_content_full_gene_calculator_script.py
 python 14_GC_content_CDS_calculator_script.py
 ### Enter the path to the CDS_gene.fasta file, so it should be in the current directory followed by the name. Ex: CDS_gene.fasta
 
+### Requests paper identifier(PMCID or PMID) for HGT paper, taking publishing year, taking paper name and
+## pasting the output in the HGT dataset
+python 15_paper_identifer_publish_year_paper_name.py
+
+### Gets the gene name (function) by using the protein.fasta and
+## pasting the output in the HGT dataset
+python 16_gene_name.py
+### Enter the path to the protein.fasta file, so it should be in the current directory followed by the name. Ex: protein.fasta
+
+
+#### Optional section
+
+### Transfers the information from the current HGT dataset paper to the Global dataset (with all the HGT dataset papers)
+### 17_transfer_to_combined_dataset_csv.py
+python 17_transfer_to_combined_dataset_csv.py
+
+### Adds a single genus species to HGT dataset
+### genus_species.py
+python genus_species.py
+
+### Adds single value to any of the columns for x amount of rows
+### input_values_automatically_in_rows.py
+python input_values_automatically_in_rows.py
+
 
 
 
