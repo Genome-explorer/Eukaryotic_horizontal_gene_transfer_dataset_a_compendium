@@ -149,7 +149,7 @@ Next enter the column number you want to add to. Ex:2
 
 Next type in what you want to add to each row.
 
-Then state which row you want stop at.
+Then state which row you want to stop at.
 
 
 
