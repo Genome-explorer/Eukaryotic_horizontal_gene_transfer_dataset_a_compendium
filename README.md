@@ -3,6 +3,14 @@
 # Eukaryotic_horizontal_gene_transfer_dataset_a_compendium
 ***All the code used to create the dataset for this project***
 
+### First create a python virtual environment (The python version should be 3.12.9)
+    python3.12 -m venv hgt
+### Second activate the virutal environment
+    source hgt/bin/activate
+### Third installs the latest python packages
+    python -m pip install --upgrade pip setuptools wheel
+### Lastly install the python packages needed for the project
+    python -m pip install -r input_requirements.txt
 ### 1 ) This script creates 3 directories (folders) to store your full gene fasta files, Coding sequence fasta files, and protein sequence fasta files
 1_make_new_directories.py
 ### To run this file make sure you have python installed
