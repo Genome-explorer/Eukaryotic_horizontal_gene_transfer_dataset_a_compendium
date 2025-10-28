@@ -1,5 +1,6 @@
 Package                 Version
 ----------------------- -----------
+python3                 3.12.9
 anyio                   4.9.0
 archspec                0.2.5
 bcbio-gff               0.7.1
