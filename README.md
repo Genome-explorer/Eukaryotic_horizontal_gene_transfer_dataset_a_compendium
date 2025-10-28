@@ -58,7 +58,7 @@ To run 6_combine_all_CDS_fasta_files_to_CDS_gene_fasta.py
 To run 7_combine_all_protein_fasta_files_to_protein_fasta.py
     
     python3 7_combine_all_protein_fasta_files_to_protein_fasta.py
-***Next paste the full path to the Coding sequence directory (folder)***
+***Next paste the full path to the protein sequence directory (folder)***
 
 ### 8 ) Copying the full_gene.fasta file, CDS_gene.fasta file, and protein.fasta file to the current directory (that contains all the python scripts)
 
