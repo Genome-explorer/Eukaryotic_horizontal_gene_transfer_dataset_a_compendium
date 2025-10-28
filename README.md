@@ -77,7 +77,7 @@ To run 8_moves_group_fasta_sequences.py
 To run 9_make_hgt_dataset_csv_file_script.py
     
     python3 9_make_hgt_dataset_csv_file_script.py
-***The empty HGT dataset should be in your current working directory (folder)***
+***The empty HGT dataset csv file (horizontal_gene_transfer_dataset.csv) should be in your current working directory (folder)***
 
 ### 10 ) Copying the protein accession number and calculating the amino acid number for each protein sequence and
 ### pasting the output in the HGT dataset
