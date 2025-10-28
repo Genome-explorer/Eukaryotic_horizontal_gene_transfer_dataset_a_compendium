@@ -96,7 +96,7 @@ To run 11_gene_accesion_&_full_gene_length_count.py
 
 ### 12 ) Calculating the number of "GACTs" for each full gene sequence and number of non-coding sequences (by taking the difference between full gene and CDS) and
 ### pasting the output in the HGT dataset
-To run 12_cds_length_&_non_coding_length.py
+To run 12_cds_length_&_non_coding_length.py (When you run this code the terminal outputs the following "Invalid integer in columns 5 or 6", ignore the output and just type y to update the non-coding sequence length)
     
     python3 12_cds_length_&_non_coding_length.py
 ***Enter the path to the CDS_gene.fasta file, so it should be in the current directory followed by the name. Ex: CDS_gene.fasta***
