@@ -6,7 +6,7 @@
 ### 1 ) This script creates 3 directories (folders) to store your full gene fasta files, Coding sequence fasta files, and protein sequence fasta files
 1_make_new_directories.py
 ### To run this file make sure you have python installed
-    python 1_make_new_directories.py
+    python3 1_make_new_directories.py
 ***Move all full gene fasta files to full_gene directory(folder), move all Coding Sequence fasta files to CDS directory(folder), and move all protein fasta files to proteins** 
 
 ### 2 ) This script adds full gene at the end of each of the fasta files in the full gene directory
@@ -98,14 +98,14 @@ To run 11_gene_accesion_&_full_gene_length_count.py
 ### pasting the output in the HGT dataset
 To run 12_cds_length_&_non_coding_length.py
     
-    python 12_cds_length_&_non_coding_length.py
+    python3 12_cds_length_&_non_coding_length.py
 ***Enter the path to the CDS_gene.fasta file, so it should be in the current directory followed by the name. Ex: CDS_gene.fasta***
 
 ### 13 ) Calculating number of G's and C's in the for each gene in full_gene.fasta and
 ### pasting the output in the HGT dataset
 To run 13_GC_content_full_gene_calculator_script.py
     
-    python 13_GC_content_full_gene_calculator_script.py
+    python3 13_GC_content_full_gene_calculator_script.py
 ### Enter the path to the full_gene.fasta file, so it should be in the current directory followed by the name. Ex: full_gene.fasta
 
 
@@ -113,17 +113,17 @@ To run 13_GC_content_full_gene_calculator_script.py
 ### pasting the output in the HGT dataset
 To run 14_GC_content_CDS_calculator_script.py
 
-    python 14_GC_content_CDS_calculator_script.py
+    python3 14_GC_content_CDS_calculator_script.py
 ***Enter the path to the CDS_gene.fasta file, so it should be in the current directory followed by the name. Ex: CDS_gene.fasta***
 
 ### 15 ) Requests paper identifier(PMCID or PMID) for HGT paper, taking publishing year, taking paper name and
 ## pasting the output in the HGT dataset
-    python 15_paper_identifer_publish_year_paper_name.py
+    python3 15_paper_identifer_publish_year_paper_name.py
 
 ### 16 ) Gets the gene name (function) by using the protein.fasta and
 ## pasting the output in the HGT dataset
 
-    python 16_gene_name.py
+    python3 16_gene_name.py
 ***Enter the path to the protein.fasta file, so it should be in the current directory followed by the name. Ex: protein.fasta***
 
 
@@ -132,17 +132,17 @@ To run 14_GC_content_CDS_calculator_script.py
 ### Transfers the information from the current HGT dataset paper to the Global dataset (with all the HGT dataset papers)
 17_transfer_to_combined_dataset_csv.py
     
-    python 17_transfer_to_combined_dataset_csv.py
+    python3 17_transfer_to_combined_dataset_csv.py
 
 ### Adds a single genus species to HGT dataset
 genus_species.py
     
-    python genus_species.py
+    python3 genus_species.py
 
 ### Adds single value to any of the columns for x amount of rows
 input_values_automatically_in_rows.py
     
-    python input_values_automatically_in_rows.py
+    python3 input_values_automatically_in_rows.py
 
 
 
