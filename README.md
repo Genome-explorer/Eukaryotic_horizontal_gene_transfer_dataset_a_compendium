@@ -143,7 +143,10 @@ genus_species.py
 input_values_automatically_in_rows.py
     
     python3 input_values_automatically_in_rows.py
-
+Once you run the code it will request which csv file to edit so enter:horizontal_gene_transfer_dataset.csv and then press enter
+Next enter the column number you want to add to. Ex:2 
+Next type in what you want to add to each row.
+Then state which row you want stop at.
 
 
 
