@@ -7,6 +7,7 @@
 1_make_new_directories.py
 ### To run this file make sure you have python installed
     python 1_make_new_directories.py
+***Move all full gene fasta files to full_gene directory(folder), move all Coding Sequence fasta files to CDS directory(folder), and move all protein fasta files to proteins** 
 
 ### 2 ) This script adds full gene at the end of each of the fasta files in the full gene directory
 2_add_full_gene_at_the_end_of_each_fasta_file.sh
