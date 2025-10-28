@@ -67,6 +67,7 @@ To run 7_combine_all_protein_fasta_files_to_protein_fasta.py
 ***The full_gene, CDS, and protein directory must be in your current directory (folder)***
 
 To run 8_moves_group_fasta_sequences.py
+    
     python3 8_moves_group_fasta_sequences.py
 
 
